@@ -34,8 +34,8 @@ function getScoreList() {
 
 function getAverageTotal(arr) {
 	const result = arr.reduce((sum, current) => sum + current, 0);
-	const averageTotal = result / arr.length;
-	console.log(`${averageTotal} is anaverage students total score.`);
+	const averageTotal = `${result / arr.length} is an average students total score.`;
+	console.log(averageTotal);
 }
 
 function init() {
